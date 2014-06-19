@@ -30,7 +30,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * Combining data into one complete dataset with all variables
 * Adding labels to variables / columns using the features vector
 * Extracts only the measurements on the mean and standard deviation for each measurement (i.e. selecting features / columns containing the word "mean" or "std" using the "grep" function)
-* Use activity_labels file to name the activities in the data set in a descriptive way, where currently we have a data set with activity as names, volunteers as IDs while selecting only the mean & standard deviation measurements 
+* Use activity_labels file to name the activities in the data set in a descriptive way, where currently we have a data set with activities as names, volunteers as IDs while selecting only the mean & standard deviation measurements 
 * Arranging the dataset according to Volunteer ID & Activity type plus writing it to (.txt) file (clean_ordered_data.txt)
 
 
@@ -38,19 +38,19 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 	1. Creating a unique (Volunteer-Activity Identifier) for 	each variable by combining first two columns together
 	2. Calculating the average for all variables per such 	Unique ID using "melt" & "cast" functions
-	3. Currently we have for each volunteer and for each 	activity (unique ID)an average value for each variable
+	3. Currently we have for each volunteer and for each 	activity (unique ID) an average value for each variable
 	4. Changing variables' / columns' names to reflect the 	average and writing it to a (.txt) file 	(average_ordered_data.txt)
 
 
 
-## Reading Tidy Data Sets
+R script last updated: 19th June 2014  ,  R version used: 3.0.3 (2014-03-06)
+
+Definition & description of the various variables are included in the CodeBook.md file
+
+### Reading Tidy Data Sets
 -------------------------
 
 Both data sets could be read using (read.table) functions while setting (header) value to (TRUE)
 
 
 
-R script last updated: 19th June 2014
-R version used: 3.0.3 (2014-03-06)
-
-Definition & description of the various variables are included in the CodeBook.md file
