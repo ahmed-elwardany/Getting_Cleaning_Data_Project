@@ -9,40 +9,19 @@ CodeBook
   
 * '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ , tGravityAcc-XYZ , tBodyAccJerk-XYZ , tBodyGyro-XYZ , tBodyGyroJerk-XYZ , tBodyAccMag , tGravityAccMag , tBodyAccJerkMag , tBodyGyroMag , tBodyGyroJerkMag , fBodyAcc-XYZ , fBodyAccJerk-XYZ , fBodyGyro-XYZ , fBodyAccMag , fBodyAccJerkMag , fBodyGyroMag , fBodyGyroJerkMag
 
 
 
 * Mean & Standard Deviation variables were estimated from these signals and were the only ones included in our data set
 
-mean(): Mean value
-std(): Standard deviation
+mean(): Mean value  ,  std(): Standard deviation
 
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
-.
-.
-.
-.
-fBodyGyroJerkMag-mean()
-fBodyGyroJerkMag-std()
+tBodyAcc-mean()-X , tBodyAcc-mean()-Y , tBodyAcc-mean()-Z
+ .
+ .
+ .
+ . fBodyGyroJerkMag-mean() , fBodyGyroJerkMag-std()
 
 
 
@@ -50,15 +29,11 @@ fBodyGyroJerkMag-std()
 
 Unique_Volunteer_Activity_ID: Corresponding to a single volunteer doing a single acitivity
 
-Average - tBodyAcc-mean()-X
-Average - tBodyAcc-mean()-Y
-Average - tBodyAcc-mean()-Z
-.
-.
-.
-.
-Average - fBodyGyroJerkMag-mean()
-Average - fBodyGyroJerkMag-std()
+Average - tBodyAcc-mean()-X , Average - tBodyAcc-mean()-Y , Average - tBodyAcc-mean()-Z
+ .
+ .
+ .
+ . Average - fBodyGyroJerkMag-mean() , Average - fBodyGyroJerkMag-std()
 
 
 * Note: Features are normalized and bounded within [-1,1]
